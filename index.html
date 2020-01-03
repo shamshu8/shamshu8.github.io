@@ -4,26 +4,45 @@
 	<title>Android Robot</title>
 	<link rel="stylesheet" type="text/css" href="./android.css">
 
+	
+
 </head>
 <body>
 
 	<h2> Paint what to do you like</h2>
-	<input class="color1" type="color" name="color1" value="#00ff00">
-	<input class="color2" type="color" name="color1" value="#ff0000">
+	<input class="color1" type="color" name="color1" value="#00ff00" oninput="setColor()">
+	<input class="color2" type="color" name="color1" value="#ff0000" oninput="setColor()">
+	<button onClick="sayHai()">Click here to say Hai</button>
+	<button onClick="getBrother()">Get my brother</button>
 
 	<div class="maindiv">
-		<div class="headdiv" id="head1"></div>
+		<div class="headdiv"></div>
 		<div class="lefteye"></div>
 		<div class="righteye"></div>
 		<div class="lefthorn"></div>
 		<div class="rightthorn"></div>
-		<div class="bodydiv" id="head2"></div>
+		<div class="bodydiv"></div>
 		<div class="leftleg"></div>
 		<div class="rightleg"></div>
 		<div class="lefthand"></div>
 		<div class="righthand"></div>
 
 	</div>
+
+	<div class="maindiv23">
+		<div class="headdiv2"></div>
+		<div class="lefteye2"></div>
+		<div class="righteye2"></div>
+		<div class="lefthorn2"></div>
+		<div class="righthorn2"></div>
+		<div class="bodydiv2"></div>
+		<div class="leftleg2"></div>
+		<div class="rightleg2"></div>
+		<div class="lefthand2"></div>
+		<div class="righthand2"></div>
+
+	</div>
+
 
 <script type="text/javascript" src="./backgroud.js"></script>
 </body>
